@@ -1,2 +1,2 @@
 # MRHttpResponseParse
-Parse the response of http easily
+Parse the response of HTTP easily
