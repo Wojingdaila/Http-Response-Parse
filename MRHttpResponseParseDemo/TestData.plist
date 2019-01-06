@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Int</key>
+	<real>88.88</real>
+	<key>Bool</key>
+	<true/>
+	<key>String</key>
+	<string>a root string</string>
+	<key>Float</key>
+	<real>66.66</real>
+	<key>Dictionary</key>
+	<dict>
+		<key>Dictionary2</key>
+		<dict>
+			<key>ArrayInDic2</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>ArrayInDic2</string>
+					<key>type</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>1</string>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>Dictionary3</key>
+			<dict>
+				<key>StrInDic3</key>
+				<string>StrInDic3</string>
+				<key>NumInDic3</key>
+				<integer>0</integer>
+			</dict>
+			<key>IntInDic2</key>
+			<integer>3</integer>
+		</dict>
+		<key>ArrayInDictionary</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>ArrayInDic</string>
+				<key>title</key>
+				<string>title2</string>
+				<key>list</key>
+				<array>
+					<dict>
+						<key>des</key>
+						<string>zero des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>a des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>sec des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>3rd des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>4th des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>5th des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>6th des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>7th des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>8th des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>9th des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>10th des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>11th des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>12th des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>13th des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>14th des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>15th des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>16th des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>17 des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>18 des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>19 des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>20 des</string>
+						<key>change</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>des</key>
+						<string>21 des</string>
+						<key>change</key>
+						<true/>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>ArrayInDic</string>
+				<key>title</key>
+				<string>title1</string>
+			</dict>
+		</array>
+		<key>StringInDic</key>
+		<string></string>
+	</dict>
+	<key>Array</key>
+	<array/>
+</dict>
+</plist>
