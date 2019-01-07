@@ -27,7 +27,7 @@ It depends on YYModel (https://github.com/ibireme/YYModel)
        @"NSDictionary:xx.xx.anArray[3]"   --->  return the dictionary at an array's 3rd;<br/>
 
 <br/>
-中文说明：
+中文说明：<br/>
 此解析依赖于库 YYModel (https://github.com/ibireme/YYModel)
  
 使用步骤:<br/>
