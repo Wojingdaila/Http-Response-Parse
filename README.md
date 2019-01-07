@@ -26,7 +26,7 @@ It depends on YYModel (https://github.com/ibireme/YYModel)
        @"ModelA:xx.xx.anArray[3].xx.aDictionary" --->  return the instance of ModelA at an array's 3rd dictionary keyPath;<br/>
        @"NSDictionary:xx.xx.anArray[3]"   --->  return the dictionary at an array's 3rd;<br/>
 
-
+<br/>
 中文说明：
 此解析依赖于库 YYModel (https://github.com/ibireme/YYModel)
  
