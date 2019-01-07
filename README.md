@@ -2,7 +2,7 @@
 Parse the response of HTTP easily
 
 
-It depends on YYModel
+It depends on YYModel (https://github.com/ibireme/YYModel)
  
   Parse Steps:<br/>
    Step 1:<br/>
