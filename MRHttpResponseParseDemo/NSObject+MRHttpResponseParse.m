@@ -113,20 +113,16 @@
                 MRHttpResponseParseLog(([NSString stringWithFormat:@"数组格式设置错误--%@", path]));
                 return nil;
             }
-            if ([path rangeOfString:rightSquare].location != NSNotFound) {
-                NSString *key = [path substringToIndex:[path rangeOfString:leftSquare].location];
-                NSInteger index = abs((int)[[[path substringFromIndex:[key stringByAppendingString:leftSquare].length] substringWithRange:NSMakeRange(0, ([path rangeOfString:rightSquare].location-[key stringByAppendingString:leftSquare].length))] integerValue]);
-                NSArray *objs = [dic objectForKey:key];
-                if ([objs isKindOfClass:[NSArray class]]) {
-                    //有此条数据
-                    if (index<objs.count) {
-                        return [objs objectAtIndex:index];
-                    } else {
-                        MRHttpResponseParseLog(([NSString stringWithFormat:@"数组越界--%@", path]));
-                    }
+            NSString *key = [path substringToIndex:[path rangeOfString:leftSquare].location];
+            NSInteger index = abs((int)[[[path substringFromIndex:[key stringByAppendingString:leftSquare].length] substringWithRange:NSMakeRange(0, ([path rangeOfString:rightSquare].location-[key stringByAppendingString:leftSquare].length))] integerValue]);
+            NSArray *objs = [dic objectForKey:key];
+            if ([objs isKindOfClass:[NSArray class]]) {
+                //有此条数据
+                if (index<objs.count) {
+                    return [objs objectAtIndex:index];
+                } else {
+                    MRHttpResponseParseLog(([NSString stringWithFormat:@"数组越界--%@", path]));
                 }
-            } else {
-                
             }
             return nil;
         }
